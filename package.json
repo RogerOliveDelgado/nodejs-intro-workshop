@@ -10,6 +10,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
+    "dev" : "nodemon src/exercises/03-exercise/index.js",
     "test:ex:01": "jest 01-exercise --watch",
     "test:ex:02": "jest 02-exercise --watch",
     "test:ex:03": "jest 03-exercise --watch",

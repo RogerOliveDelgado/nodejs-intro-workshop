@@ -72,4 +72,8 @@ app.patch("/users/:userId", (req, res) => {
   });
 });
 
+app.get("/", (req,res)=> {
+  res.send(`Connected correctly to the server`)
+})
+
 module.exports = app;
